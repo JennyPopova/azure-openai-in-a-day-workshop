@@ -6,7 +6,7 @@ import os
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
 # Load environment variables
-load_dotenv()
+load_dotenv('../../.env')
 
 # Configure Azure OpenAI Service API
 openai.api_type = "azure"
