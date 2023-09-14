@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_chat import message
 
 # Load environment variables
-load_dotenv()
+load_dotenv('../../.env')
 
 # Setting page title and header
 st.set_page_config(page_title="AVA", page_icon=":robot_face:")
